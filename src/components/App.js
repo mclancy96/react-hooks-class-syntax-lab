@@ -18,15 +18,15 @@ console.log(user);
 // }
 
 class App extends React.Component {
-	render() {
-		return (
-			<div>
-				<NavBar />
-				<Home username={user.name} city={user.city} color={user.color} />
-				<About bio={user.bio} links={user.links} />
-			</div>
-		);
-	}
+  render() {
+    return (
+      <div>
+        <NavBar />
+        <Home username={user.name} city={user.city} color={user.color} />
+        <About bio={user.bio} links={user.links} />
+      </div>
+    );
+  }
 }
 
 export default App;
